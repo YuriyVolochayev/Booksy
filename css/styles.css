@@ -337,4 +337,9 @@ button {
     width: 227px;
     height: 40px;
   }
+  .section-title {
+    width: 1168px;
+    height: 62 px;
+    font-size: 52px;
+  }
 }
