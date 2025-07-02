@@ -280,8 +280,61 @@ button {
   }
 
   .hero-arrows-btn-icon {
+    fill: #fff;
+  }
+
+  .hero-arrows-btn-icon:hover,
+  .hero-arrows-btn-icon:focus {
+    fill: #0b0500;
+  }
+
+  .arrow-left-btn:hover,
+  .arrow-left-btn:focus,
+  .arrow-right-btn:hover,
+  .arrow-right-btn:focus {
+    border: 1px solid rgba(11, 5, 0, 0.15);
+    background: #fceee6;
+  }
+  .arrow-left-btn:active,
+  .arrow-right-btn:active {
+    border: 1px solid rgba(11, 5, 0, 0.15);
+    background: #5a2502;
+  }
+  .arrow-left-btn:disabled,
+  .arrow-right-btn:disabled {
+    opacity: 0.2;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .hero-container {
+    padding: 0px 64px 32px 64px;
+    margin: 0 auto;
+    /* width: 704px;
+    height: 394px; */
+    border: 1px solid black;
+  }
+  .banner {
+    border-radius: 16px;
+    /* width: 100%; */
+    /* height: auto; */
+  }
+
+  .banner-content {
+    /* padding-left: 40px;
+    padding-bottom: 32px; */
+    bottom: 56px;
+    left: 56px;
+  }
+
+  .banner-text-content {
+    font-size: 52px;
+  }
+
+  .banner-btn {
+    border-radius: 4px;
+    padding: 8px 20px;
+    width: 227px;
+    height: 40px;
+  }
 }
