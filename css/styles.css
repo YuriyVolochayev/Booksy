@@ -181,7 +181,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.section-title {
+.hero-title {
   font-weight: 600;
   font-size: 40px;
   line-height: 1.2;
@@ -231,7 +231,7 @@ button {
     background-color: #0b0500;
   }
 
-  .section-title {
+  .hero-title {
     width: 560px;
     height: auto;
   }
@@ -310,7 +310,7 @@ button {
     width: 227px;
     height: 40px;
   }
-  .section-title {
+  .hero-title {
     width: 1168px;
     height: 62 px;
     font-size: 52px;
