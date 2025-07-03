@@ -236,11 +236,13 @@
       prevBtn.addEventListener("click", () => {
         currentIndex = (currentIndex - 1 + banners.length) % banners.length;
         showBanner(currentIndex);
+        prevBtn.blur();
       });
 
       nextBtn.addEventListener("click", () => {
         currentIndex = (currentIndex + 1) % banners.length;
         showBanner(currentIndex);
+        nextBtn.blur();
       });
 
       showBanner(currentIndex);

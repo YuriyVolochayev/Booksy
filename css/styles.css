@@ -42,19 +42,16 @@ button {
 
 .container {
   width: 375px;
-  /* padding: 0px 12px 0px 20px; */
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    /* padding: 16px 32px; */
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     width: 1440px;
-    /* padding: 16px 64px; */
   }
 }
 
@@ -95,8 +92,6 @@ button {
 @media screen and (min-width: 768px) {
   .header-conteiner {
     padding: 0px 32px;
-    /* width: 768px;
-    height: 72px; */
   }
   .header-nav {
     display: flex;
@@ -149,14 +144,10 @@ button {
   display: block;
   border: none;
   border-radius: 8px;
-  /* width: 100%; */
   height: auto;
   margin-bottom: 24px;
 }
 .banner-content {
-  /* margin-bottom: 24px; */
-  /* padding-left: 16px;
-  padding-bottom: 16px; */
   position: absolute;
   bottom: 16px;
   left: 16px;
@@ -191,8 +182,6 @@ button {
   align-items: center;
 }
 .section-title {
-  /* width: 100%;
-  height: auto; */
   font-weight: 600;
   font-size: 40px;
   line-height: 1.2;
@@ -207,8 +196,6 @@ button {
   .hero-container {
     padding: 0px 32px;
     margin: 0 auto;
-    /* width: 704px;
-    height: 394px; */
     border: 1px solid black;
   }
   .banner-grid {
@@ -218,13 +205,9 @@ button {
   }
   .banner {
     border-radius: 0px;
-    /* width: 100%; */
-    /* height: auto; */
   }
 
   .banner-content {
-    /* padding-left: 40px;
-    padding-bottom: 32px; */
     bottom: 32px;
     left: 40px;
   }
@@ -248,13 +231,9 @@ button {
     background-color: #0b0500;
   }
 
-  .section-footer {
-    /* padding: 32px; */
-  }
-
   .section-title {
     width: 560px;
-    height: 96px;
+    height: auto;
   }
 
   .hero-arrows-btn {
@@ -310,19 +289,13 @@ button {
   .hero-container {
     padding: 0px 64px 32px 64px;
     margin: 0 auto;
-    /* width: 704px;
-    height: 394px; */
     border: 1px solid black;
   }
   .banner {
     border-radius: 16px;
-    /* width: 100%; */
-    /* height: auto; */
   }
 
   .banner-content {
-    /* padding-left: 40px;
-    padding-bottom: 32px; */
     bottom: 56px;
     left: 56px;
   }
