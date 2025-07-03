@@ -246,6 +246,35 @@
       });
 
       showBanner(currentIndex);
+
+      function updateSlider() {
+        // Показуємо активний слайд
+        banners.forEach((slide, index) => {
+          slide.style.display = index === currentIndex ? "block" : "none";
+        });
+
+        // Кнопка "назад" неактивна на першому слайді
+        if (currentIndex === 0) {
+          prevBtn.disabled = true;
+        } else {
+          prevBtn.disabled = false;
+        }
+
+        // Кнопка "вперед" неактивна на останньому слайді
+        if (currentIndex === banners.length - 1) {
+          nextBtn.disabled = true;
+        } else {
+          nextBtn.disabled = false;
+        }
+      }
+
+      nextBtn.addEventListener("click", () => {
+        if (currentIndex < banners.length - 1) {
+          currentIndex++;
+          updateSlider();
+          nextBtn.blur(); // зняти фокус
+        }
+      });
     });
   </script>
 </html>
